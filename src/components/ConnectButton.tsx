@@ -87,7 +87,7 @@ const ConnectButton:React.FC = () => {
       <AccountModalContent visible={visible} handleOk={handleOk} handleCancel={handleCancel} account={account} />
     </ConnectMain>
   ) : (
-    <ConnectWalletButton onClick={handleConnectWallet}>Connect to a wallet</ConnectWalletButton>
+    <ConnectWalletButton onClick={handleConnectWallet}>Connect to a wallet！</ConnectWalletButton>
   )
 }
 
